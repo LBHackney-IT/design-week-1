@@ -1,0 +1,72 @@
+/*------------------------------------*\
+    #GENERIC
+\*------------------------------------*/
+
+html {
+  font-family: var(--font-family-main);
+  /* font-size: calc(12px + (60 - 12) * (100vw - 160px) / (8000 - 160)); */
+  box-sizing: border-box;
+  color: var(--color-main);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.lbh-u-h1,
+.lbh-u-h2,
+.lbh-u-h3,
+.lbh-u-h4 {
+    font-weight: 700;
+}
+
+.lbh-u-h1 {
+    font-size: var(--font-size-heading-xlarge);
+}
+
+.lbh-u-h2 {
+    font-size: var(--font-size-heading-large);
+}
+
+.lbh-u-h3 {
+    font-size: var(--font-size-heading-medium);
+}
+
+.lbh-u-h4 {
+    font-size: var(--font-size-heading-small);
+}
+
+.lbh-u-p {
+  max-width: var(--width-main);
+}
+
+.lbh-u-p--default {
+  font-size: var(--font-size-paragraph-default);
+}
+
+.lbh-u-p--lede {
+  font-size: var(--font-size-paragraph-lede);
+}
+
+.lbh-u-p--small {
+  font-size: var(--font-size-paragraph-small);
+}
