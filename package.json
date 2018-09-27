@@ -1,9 +1,9 @@
 {
-  "name": "teschio",
-  "version": "0.5.0",
-  "description": "teschio",
-  "repository": "riccardoerra/teschio",
-  "author": "Riccardo Erra",
+  "name": "lbh-design-week-1",
+  "version": "0.1.0",
+  "description": "lbh-design-week-1",
+  "repository": "LBHackney-IT/design-week-1",
+  "author": "LBH Digital Design team",
   "license": "MIT",
   "dependencies": {
     "del": "^3.0.0",

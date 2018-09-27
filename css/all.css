@@ -32,6 +32,12 @@ ul {
   width: 100%;
 }
 
+@media (max-width: 720px) {
+  .wrapper {
+    padding: 0;
+  }
+}
+
 .lbh-u-h1,
 .lbh-u-h2,
 .lbh-u-h3,
@@ -113,6 +119,17 @@ table {
   border-spacing: 0;
   border-collapse: collapse;
   font-size: 19px;
+}
+
+@media (max-width: 720px) {
+  .user-image,
+  table {
+      width: 100%;
+  }
+
+  .user-image {
+    margin-bottom: 22px;
+  }
 }
 
 caption {
