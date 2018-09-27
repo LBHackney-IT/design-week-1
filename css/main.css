@@ -2,8 +2,20 @@
     #MAIN
 \*------------------------------------*/
 
+.main {
+    margin-bottom: 50px;
+}
+
 .main header,
 .main section,
 .main aside {
     padding: 0 1rem;
+}
+
+.box {
+    border: 1px solid #bfc1c3;
+    padding: 22px;
+    height: 100%;
+    box-shadow: 7px 7px 0 #fff, 8px 8px 0 #bfc1c3;
+    margin: 5px 25px 25px 0;
 }
