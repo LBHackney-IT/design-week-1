@@ -173,3 +173,23 @@ td {
   color: #00664F;
 }
 
+.past {
+  /* background: #bfc1c3;
+  opacity: 0.25; */
+  pointer-events: none;
+  position: relative;
+}
+
+.past:after {
+  display: block;
+  content: "";
+  background-color: #bfc1c3;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .5;
+}
+
+
