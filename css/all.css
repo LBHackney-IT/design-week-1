@@ -153,3 +153,43 @@ td {
   padding-right: 0;
 }
 
+.train {
+  background-image: url(./assets/images/train.svg);
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  background-size: 16px 20px;
+  padding-left: 32px;
+}
+
+.bus {
+  background-image: url(./assets/images/bus.svg);
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  background-size: 16px 20px;
+  padding-left: 32px;
+}
+
+.link {
+  color: #00664F;
+}
+
+.past {
+  /* background: #bfc1c3;
+  opacity: 0.25; */
+  pointer-events: none;
+  position: relative;
+}
+
+.past:after {
+  display: block;
+  content: "";
+  background-color: #bfc1c3;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .5;
+}
+
+
